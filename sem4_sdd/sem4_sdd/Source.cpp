@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string.h>
 #include <stdio.h>
 using namespace std;
 
@@ -134,7 +135,7 @@ void conversieStivaListaSimpla(nodStiva** varf, nodLista**cap)
 	}
 }
 
-void main()
+int main()
 {
 	nodStiva *varf = NULL;
 	int n;
@@ -176,4 +177,6 @@ void main()
 	//dezalocarea stivei
 	while(pop(&varf, &val)==0)
 		free(val.titlu);
+
+	return 0;
 }
