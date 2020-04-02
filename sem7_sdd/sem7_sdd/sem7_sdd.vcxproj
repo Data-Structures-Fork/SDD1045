@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{878D32CE-6751-4F86-B88F-E4C944D6D77A}</ProjectGuid>
+    <ProjectGuid>{A63EE5DE-1536-4E0D-8475-283F715ABE24}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>sem6_sdd</RootNamespace>
+    <RootNamespace>sem7_sdd</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,10 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Source1.cpp" />
+    <ClCompile Include="..\..\sem6_sdd\sem6_sdd\Source1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
