@@ -1,7 +1,9 @@
-6
-5 Gigel 5
-3 Dorel 3
-7 Ionel 7
-1 Maricica 1
-4 Vasile 4
-10 Marcel 10
+8
+10 Gigel 5
+6 Dorel 3
+11 Ionel 7
+5 Maricica 1
+9 Vasile 4
+12 Vasilica 5
+8 Vasilica 5
+7 Vasilica 5
